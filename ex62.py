@@ -1,18 +1,13 @@
-numero_da_pa = int(input("Digite qual vai ser o termo da PA: "))
-razao_da_pa = int(input("Digite qual vai ser a Razao da PA: "))
-pa = numero_da_pa
+numero = int(input("Digite o numero: "))
+razao = int(input("Digite a razao: "))
 contador = 0
-
-print(f"{numero_da_pa} -", end=" ")
-
-while contador < 9:
-    pa = numero_da_pa + razao_da_pa
-
-    if contador < 8:
-        print(f"{pa} -", end=" ")
-
-    else:
-        print(f"{pa} FIM")
-
-    numero_da_pa += razao_da_pa
+termos = 10
+while contador < termos:
+    print(f"{numero}", end=" ")
+    numero += razao
     contador += 1
+    if contador == termos:
+        termos += int(input("\nQuantos termos a mais voce deseja ver? "))
+    if termos == 0:
+        print("Acabou")
+print(f"Progressao finalizada com {contador} termos mostrados")
