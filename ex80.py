@@ -18,5 +18,5 @@ for contador in range (0, 5):
                 break
 
             posicao += 1
-
+            
 print(valores)
