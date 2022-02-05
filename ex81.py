@@ -17,4 +17,4 @@ if numeros.count(5) >= 1:
     print("O valor 5 faz parte da lista!")
       
 else:
-    print("O valor 5 não faz parte da lista!")
+    print("O valor 5 não faz parte da lista! ")
