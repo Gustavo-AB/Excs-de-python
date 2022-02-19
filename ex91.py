@@ -13,12 +13,7 @@ for chave, valor in jogos.items():
     
 ranking = sorted(jogos.items(), key=itemgetter(1), reverse=True)
 
-contador = 0
-contador2 = 1
-
 print("-"*40)
 
 for chave, valor in enumerate(ranking):
     print(f'{chave+1}° lugar: {valor[0]} com {valor[1]}')
-
-
