@@ -9,11 +9,10 @@ def leiaInt(msg):
             break
 
         else:
-            print(f'Erro! Digite um numero valido')
+            print(f'\033[31mErro! Digite um numero valido\033[m')
 
     return numero
 
 
 numero = leiaInt("Digite um numero: ")
-print(f'Você digitou o numero {numero}!')
-
+print(f'\033[32mVocê digitou o numero {numero}!\033[m')
