@@ -1,4 +1,4 @@
-from modulosparaexcs import moeda
+import moeda
 
 valor = int(input("Digite um preco: "))
 
