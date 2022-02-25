@@ -1,3 +1,4 @@
+from ex110.moeda import resumo
 import moeda
 
 valor = int(input("Digite um preco: "))
